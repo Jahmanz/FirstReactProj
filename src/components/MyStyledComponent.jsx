@@ -1,13 +1,13 @@
 function MyStyledComponent(props) {
   return (
-   <div>
+    <div>
       <p className="red-text">only this paragraph will get the style :)</p>
       <style jsx>{`
         .red-text {
           color: red;
         }
     `}</style>
-  </div>
+    </div>
   );
 }
 
