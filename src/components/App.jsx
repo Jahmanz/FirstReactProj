@@ -3,6 +3,7 @@ import Header from './Header';
 import TicketList from './TicketList';
 import { Switch, Route } from 'react-router-dom';
 import NewTicketForm from './NewTicketForm';
+import ImageComponent from './images';
 
 
 function App(){
@@ -13,6 +14,7 @@ function App(){
         <Route exact path='/' component={TicketList} />
         <Route path='/newticket' component={NewTicketForm} />
       </Switch>
+      <ImageComponent/>
     </div>
   );
 }
